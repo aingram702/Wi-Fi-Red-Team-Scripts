@@ -1,4 +1,5 @@
 #!/bin/bash
+# run on a Linux machine with Aircrack-NG installed. 
 
 for i in (1..10000)
 
