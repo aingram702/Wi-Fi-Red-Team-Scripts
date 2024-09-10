@@ -26,6 +26,6 @@ if __name__ == "__main__":
     args = parser.parse_args()
     if (not args.interface or not args.count 
         or not args.bssid or not args.target_mac):
-        print("[-] Please specify all program arguments... run `sudo python3 deauthenticator.py -h` for help")
+        print("[-] Please specify all program arguments... run `sudo python3 deauth-adv.py -h` for help")
         exit(1)
     deauth(args.interface, int(args.count), args.bssid, args.target_mac)
